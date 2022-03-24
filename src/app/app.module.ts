@@ -11,6 +11,10 @@ import { CardapioComponent } from './cardapio/cardapio.component';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { AdminComponent } from './admin/admin.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// Angular component
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -25,8 +29,10 @@ import { SobreComponent } from './sobre/sobre.component';
     SobreComponent
   ],
   imports: [
+    MatSliderModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
