@@ -23,6 +23,7 @@ import { IncluirComponent } from './cadastro/produtos/incluir.component';
 import { ExcluirComponent } from './cadastro/produtos/excluir.component';
 import { ListarComponent } from './cadastro/produtos/listar.component';
 import { EditarComponent } from './cadastro/produtos/editar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { EditarComponent } from './cadastro/produtos/editar.component';
     MatButtonModule,
     MatSliderModule,
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
