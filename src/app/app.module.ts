@@ -18,6 +18,11 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import { IncluirComponent } from './cadastro/produtos/incluir.component';
+import { ExcluirComponent } from './cadastro/produtos/excluir.component';
+import { ListarComponent } from './cadastro/produtos/listar.component';
+import { EditarComponent } from './cadastro/produtos/editar.component';
 
 
 @NgModule({
@@ -30,7 +35,12 @@ import {MatIconModule} from '@angular/material/icon';
     CardapioComponent,
     CarrinhoComponent,
     AdminComponent,
-    SobreComponent
+    SobreComponent,
+    CadastroComponent,
+    IncluirComponent,
+    ExcluirComponent,
+    ListarComponent,
+    EditarComponent
   ],
   imports: [
     MatIconModule,
